@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overall balance (Standfin)</title>
+</head>
+
+<body>
+    <main style="margin: 0 auto; width: 350px; margin-top: 30px;">
+        <h1>Баланс операций</h1>
+        <section>
+            <form id="create-operation" style="margin-bottom: 10px;">
+                <label>Создать операцию</label>
+                <button type="submit">Отправить</button>
+            </form>
+
+            <form id="edit-operation" style="margin-bottom: 10px;">
+                <label>Редактировать операцию</label>
+                <button type="submit">Отправить</button>
+            </form>
+
+            <form id="delete-operation" style="margin-bottom: 10px;">
+                <label>Удалить операцию</label>
+                <button type="submit">Отправить</button>
+            </form>
+        </section>
+
+        <div style="display: flex;">
+            <p>Суммарный баланс:&nbsp;</p>
+            <p id="overall-balance">...</p>
+        </div>
+        <p id="error-message" style="color: red;"></p>
+    </main>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
